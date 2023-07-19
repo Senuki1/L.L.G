@@ -3,25 +3,12 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Sass',
-          href: getPermalink('/landing/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/landing/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/landing/mobile-app'),
-        },
-      ],
-    },
-    {
       text: 'Pages',
       links: [
+        {
+          text: 'Mobile App',
+          href: getPermalink('/#features'),
+        },
         {
           text: 'Features',
           href: getPermalink('/#features'),
@@ -31,33 +18,21 @@ export const headerData = {
           href: '#',
         },
         {
-          text: 'About us',
+          text: 'About us/contact',
           href: '#',
         },
         {
-          text: 'Contact',
-          href: '#',
-        },
-        {
-          text: 'Terms',
+          text: 'Terms/Privacy Policy',
           href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
         },
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
-    },
-    {
-      text: 'Blog',
+      text: 'Support',
       href: getBlogPermalink(),
     },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  actions: [{ type: 'button', text: 'Log In', href: 'https://chat-app-ten-ochre.vercel.app/' }],
 };
 
 export const footerData = {
