@@ -10,4 +10,4 @@ canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-
 
 Below will be listed contact information for our support team.
 
-(page under construction)
+This is the main page for
